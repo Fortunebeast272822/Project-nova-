@@ -88,10 +88,57 @@ The element will be visually hidden but will still be read by screen reader tech
 
 /* Reusable Custom CSS Variables */
 :root {
-  --colorTitle: hsl(234, 12%, 34%);   /* Very Dark Blue */
-  --colorText: hsl(229, 6%, 66%);     /* Grayish Blue */
-  --colorBackground: hsl(0, 0%, 98%); /* Very Light Gray */
+  --color1: hsl(0, 36%, 70%);   /* Desaturated Red */
+  --color2: hsl(0, 93%, 68%);   /* Soft Red */
+  --color3: hsl(0, 6%, 24%);    /* Dark Grayish Red */
 }
 
 /* Divs & Containers */
+
+body {
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+                      linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+    height: 66px;
+}
+
+.header__logo {
+    margin: auto 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 85%;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-title {
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    line-height: 1;
+    color: var(--color3);
+}
+
+.hero-title--thinRed {
+    color: var(--color1);
+    font-weight: 300;
+}
+
+.hero-text {
+    margin: 30px 0 30px 0;
+    text-align: center;
+    color: var(--color1);
+}
 
