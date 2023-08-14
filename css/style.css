@@ -121,6 +121,20 @@ body {
     align-content: center;
 }
 
+#email {
+  background-color: inherit;
+  border-radius: 20px;
+  border: 2px solid hsl(0, 36%, 70%);
+  height: 40px;
+  width: 100%;
+  background: url(../images/icon-arrow.svg) no-repeat 95%; /* NEEDS MORE WORK !! */
+}
+
+.email-wrapper #email::placeholder { /* NOT WORKING ?? */
+  color: red;
+  font-size: 300px;
+}
+
 .hero-title {
     margin: 50px 0 0 0;
     text-align: center;
