@@ -121,6 +121,21 @@ body {
     align-content: center;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center; /* Horizontally centers the image */
+  align-items: center; /* Vertically centers the image */
+  width: 100vw; /* Makes the container take up 100% of the viewport width */
+  
+}
+
+.image-container img {
+  max-width: 100%; /* Makes sure the image doesn't exceed the container's width */
+  max-height: 100%; /* Makes sure the image doesn't exceed the container's height */
+  object-fit: contain; /* Maintains the image's aspect ratio while fitting it within the container */
+  flex-grow: 1; 
+}
+
 #email {
   background-color: inherit;
   border-radius: 20px;
@@ -155,4 +170,5 @@ body {
     text-align: center;
     color: var(--color1);
 }
+
 
