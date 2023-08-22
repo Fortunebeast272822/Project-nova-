@@ -192,6 +192,10 @@ input[type="email"]::placeholder {
   transition: 0.3s;
 }
 
+.email-input:focus { /*NOT WORKING BUT NEEDS TO BE FIXED */
+  border: 1px solid yellow;
+}
+
 .email-input-btn:hover {
   padding: 0.8rem 2.4rem;
 }
@@ -232,10 +236,25 @@ input[type="email"]::placeholder {
 
  .logo-wrapper-desktop {
   display: flex;
+  margin-top: 50px;  /* Updated for desktop may need to check responsivness */
+  margin-bottom: 50px; /* Updated for desktop may need to check responsivness */
  }
 
  .header__logo {
   margin: auto 0;
+}
+
+.hero-title {
+  font-size: 4.75rem;
+}
+
+.hero-text {
+  font-size: 1.125rem;
+  margin-bottom: 50px;
+}
+
+.email-wrapper {
+  margin-bottom: 100px; /* Updated for desktop may need to check responsivness */
 }
 
  .logo-wrapper-desktop,
@@ -248,7 +267,7 @@ input[type="email"]::placeholder {
 
  .desktop-left-inner { /* flex setting of centering else where is afecting how much space top and bottom is empty margin ect */
   /* margin: 50px; */
-  width: 60%;
+  width: 52%;    /* Updated for desktop may need to check responsivness */
   height: 100vh;
  }
 }
