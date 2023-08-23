@@ -19,9 +19,11 @@ emailInput.addEventListener('input', () => {
   if (validateEmail(email)) {
     emailErrorIcon.classList.add('none');
     emailErrorText.classList.add('none');
+    emailInput.classList.remove('error-border');
   } else {
     emailErrorIcon.classList.remove('none');
     emailErrorText.classList.remove('none');
+    emailInput.classList.add('error-border');
   }
 });
 
@@ -33,8 +35,6 @@ emailForm.addEventListener('submit', (e) => {
     emailErrorIcon.classList.remove('none');
     emailErrorText.classList.remove('none');
   } else {
-    // If email is valid, you might also want to hide the error messages if they were shown earlier
-    emailErrorIcon.classList.add('none');
-    emailErrorText.classList.add('none');
+    // Add any additional submission functionality here
   }
 });
