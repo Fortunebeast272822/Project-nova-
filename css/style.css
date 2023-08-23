@@ -177,7 +177,7 @@ input[type="email"]::placeholder {
   border: 2px solid hsl(0, 36%, 70%);
   height: 47px;
   width: 100%;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 20px;
 }
 
 .email-input-btn {
@@ -200,12 +200,27 @@ input[type="email"]::placeholder {
   padding: 0.8rem 2.4rem;
 }
 
+.email-error-icon {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  color: red; /* NOT WORKING */
+}
+
+.email-error-text {
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  color: red;
+}
+
 .desktop-right {
   display: none;
 }
 
 
 @media (min-width: 1000px) {
+  
 
   body {
     display: flex;
@@ -217,6 +232,9 @@ input[type="email"]::placeholder {
 
   .desktop-left {
     display: flex;
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-size: cover;
+    background-position: center;
   }
 
   .desktop-right {
