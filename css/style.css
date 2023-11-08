@@ -64,13 +64,13 @@ select {
       background-color:#08191C;
     border-radius: 30px;
       color: white;
-      text-align: center;
+      text-align: left;
       text-decoration: none;
       display: inline-block;
-      font-size: 40px;
-      margin: 80px 80px;
+      font-size: 16px;
+      margin: 10px 10px;
       cursor: pointer;
-      padding:40px 40px;
+      padding:20px 20px;
     }
 
 /* sr-only is for screen reader use only - 
