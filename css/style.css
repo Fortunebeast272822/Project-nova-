@@ -62,7 +62,7 @@ select {
 }
  .button {
       background-color:#08191C;
-      border: none;
+    border-radius: 30px;
       color: white;
       text-align: center;
       text-decoration: none;
