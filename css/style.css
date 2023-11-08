@@ -60,7 +60,7 @@ textarea,
 select {
   font: inherit;
 }
- .button1{
+ .button {
       background-color:#08191C;
       border: none;
       color: white;
@@ -71,8 +71,6 @@ select {
       margin: 80px 80px;
       cursor: pointer;
     }
-.button1 {
-      padding: 30px 40px;
 
 /* sr-only is for screen reader use only - 
 The element will be visually hidden but will still be read by screen reader technology. */
