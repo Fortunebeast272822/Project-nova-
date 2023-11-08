@@ -70,6 +70,7 @@ select {
       font-size: 16px;
       margin: 80px 80px;
       cursor: pointer;
+      padding:40px 40px;
     }
 
 /* sr-only is for screen reader use only - 
