@@ -64,7 +64,7 @@ select {
       background-color:#08191C;
     border-radius: 30px;
       color: white;
-      text-align:center;
+      align:center;
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
